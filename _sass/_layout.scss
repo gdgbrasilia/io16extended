@@ -1,0 +1,96 @@
+
+/*---------------------------------*\
+	#HEADER
+\*---------------------------------*/
+
+.header-site {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 70px;
+	padding-top: 10px;
+	background: white;
+
+	.row {
+		margin-bottom: 0;
+	}
+}
+
+.logo {
+	svg {
+		width: 150px;
+	}
+}
+
+.menu-site {
+	text-align: right;
+	li {
+		display: inline-block;
+		margin-left: 10px;
+
+		a {
+			color: #546E7A;
+			text-transform: uppercase;
+			font-weight: 500;
+			font-size: .950em;
+		}
+	}
+}
+
+.hero-home {
+	text-align: center;
+	margin-top: 150px;
+	h1 {
+		font-weight: 100;
+		font-size: 6em;
+		a {
+			color: $color-p;
+		}
+	}
+
+	h2 {
+		font-size: 1.2em;
+		line-height: 1.3;
+		font-weight: 300;
+	}
+
+	.call-to-action {
+		margin-top: 50px;
+	}
+}
+
+
+
+/*---------------------------------*\
+	#LOCAL
+\*---------------------------------*/
+
+.address-event {
+	margin-top: 180px;
+	transform: scale(1.2);
+}
+
+.address-event-content {
+	position: relative;
+	background: url(../assets/images/img-address.jpg) right;
+	background-size: cover; 
+}
+
+.aec-info {
+	width: 50%;
+	padding: 20px;
+	background: #4DD0E1;
+	height: 450px;
+
+	p {
+		margin: 0;
+		font-size: 1.350em;
+		font-weight: 300;
+		line-height: 1.3;
+		color: #444;
+	}
+}
+
+.aec-info-local {
+	margin-top: 15px !important;
+}
