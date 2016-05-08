@@ -1,19 +1,77 @@
-$color-p: #5E6BB2;
+$color-p: #5c6bc0;
+$color-s: #ef5350;
 
 body {
 	font-family: 'Roboto', sans-serif;
 	color: #546E7A;
 	overflow-x: hidden !important;
+	min-height: 1000px;
+ background: linear-gradient(270deg, #5c6bc0, #ef5350);
+background-size: 400% 400%;
+
+-webkit-animation: AnimationName 34s ease infinite;
+-moz-animation: AnimationName 34s ease infinite;
+animation: AnimationName 34s ease infinite;
 }
+
+ @-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
 
 .container {
 	position: relative;
 }
 
-.color-bg {
-	display: none;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background: rgba(0,0,0,0.5);
+
+.box-white {
+	background: white;
+	margin-bottom: 50px;
+}
+
+.title-section {
+	text-align: center;
+	margin: 0;
+}
+
+.footer-site {
+	padding-top: 10px;
+	display: block;
+	margin-top: 50px;
+	background: white;
+	height: 80px;
+
+	.row {
+		margin-bottom: 0;
+	}
+
+	ul {
+		margin: 0;
+		li {
+			margin: 15px 5px;
+			display: inline-block;
+			a {
+				color: #333;
+				font-size: 1.4em;
+			}
+		}
+	}
+}
+
+.footer-site p { 
+	margin: 19px 0 0 0;
+	text-transform: uppercase;
+	text-align: right;
 }
