@@ -1,13 +1,33 @@
 <footer class="footer-site">
-  <div class="container center">
-    <p>GDG Brasília</p>
-  </div>
+	<div class="container">
+		<div class="row">
+			<div class="col s6">
+				<ul>
+					<li>
+						<a href="https://www.facebook.com/gdgbrasilia/" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+					</li>
+					<li>
+						<a href="https://twitter.com/gdgbrasilia" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					</li>
+					<li>
+						<a href="https://plus.google.com/101378728126520052592/posts" target="_blank"><i class="fa fa-google-plus"></i></a>
+					</li>
+				</ul>
+			</div>
+			<div class="col s6">
+		  	<p>GDG Brasília</p>
+			</div>
+		</div>
+	  <div class="clarfix"></div>
+	</div>
 </footer>
 
-<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="assets/js/jquery-1.12.3.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+
 <script>
-  $(document).ready(function(){
+	$(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
     $('.modal-trigger').leanModal();
   });
 </script>
