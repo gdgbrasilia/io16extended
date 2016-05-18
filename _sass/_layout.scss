@@ -94,8 +94,8 @@
 
 	.call-to-action {
 		margin-top: 40px;
-		background: white;
-		color: $color-p;
+		background: $color-s;
+		color: white;
 	}
 }
 
@@ -237,11 +237,12 @@
 	max-width: 80%;
 
 	h5 {
-		margin: 30px 0;
+		margin: 60px 0 30px 0;
 	}
 
 	img {
-		max-width: auto;
+		width: auto;
+		max-width: 230px;
 		height: 70px;
 	}
 }
